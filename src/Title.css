@@ -11,8 +11,8 @@
     height: 100%;
     position: relative;
     width: 100%;
-    margin-top: 5vh;
-    margin-left: 10vw;
+    margin-top: 10vh;
+    margin-left: 15vw;
 }
 
 .slogan {
@@ -24,10 +24,8 @@
 .text-wrapper {
     color: #ffffff;
     font-family: "Poppins-Bold", Helvetica;
-    font-size: 64px;
+    font-size: 70px;
     font-weight: 700;
-    left: 0;
-    letter-spacing: 0;
     line-height: normal;
     position: absolute;
 }
@@ -35,26 +33,24 @@
 .text-wrapper-3 {
     color: #ffffff;
     font-family: "Poppins-Bold", Helvetica;
-    font-size: 64px;
+    font-size: 70px;
     font-weight: 700;
     left: 98px;
-    letter-spacing: 0;
     line-height: normal;
     position: absolute;
     top: 95px;
-    padding: 20px;
+    padding: 30px;
 }
 
 .text-wrapper-2 {
     color: #91bcc9;
     font-family: "Poppins-Bold", Helvetica;
-    font-size: 40px;
+    font-size: 46px;
     font-weight: 700;
-    left: 0;
     letter-spacing: 0.4px;
     line-height: 68px;
     position: absolute;
     top: 95px;
     white-space: nowrap;
-    padding: 20px;
+    padding: 30px;
 }
