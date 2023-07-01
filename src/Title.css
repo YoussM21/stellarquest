@@ -21,7 +21,7 @@
     left: 100px;
 }
 
-.box .text-wrapper {
+.text-wrapper {
     color: #ffffff;
     font-family: "Poppins-Bold", Helvetica;
     font-size: 64px;
@@ -30,10 +30,9 @@
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: -1px;
 }
 
-.box .div {
+.text-wrapper-3 {
     color: #ffffff;
     font-family: "Poppins-Bold", Helvetica;
     font-size: 64px;
@@ -43,9 +42,10 @@
     line-height: normal;
     position: absolute;
     top: 95px;
+    padding: 20px;
 }
 
-.box .text-wrapper-2 {
+.text-wrapper-2 {
     color: #91bcc9;
     font-family: "Poppins-Bold", Helvetica;
     font-size: 40px;
@@ -56,4 +56,5 @@
     position: absolute;
     top: 95px;
     white-space: nowrap;
+    padding: 20px;
 }
