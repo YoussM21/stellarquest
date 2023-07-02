@@ -1,0 +1,130 @@
+.reviews-container{
+    margin-top: 5vh;
+    position: relative;
+    justify-content: center;
+}
+
+.header{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 8vh;
+}
+
+.group-wrapper{
+    display: flex;
+    gap : 50px;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.pic-wrapper{
+    position: relative;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:5px;
+}
+
+.text-wrapper{
+    align-items: center;
+    display: flex;
+    gap: 10px; 
+    position: relative;
+    width: fit-content;
+}
+
+.name{
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.name2{
+    color: #8ca9b9;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.24px;
+    line-height: 27.2px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.jonbruce{
+    height: 466px;
+    object-fit: cover;
+    position: relative;
+    width: 401px;
+}
+
+.reviews{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 0px none;
+}
+
+.review1-wrapper{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    background-color: #10212be6;
+    border-radius: 10px;
+    height: 150px;
+    width: 660px;
+    gap: 40px;
+}
+
+.review1{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.review-title{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+    position: relative;
+    letter-spacing: 0.2px;
+    white-space: nowrap;
+    margin: 0;
+}
+
+.review-content-wrapper{
+    color: #8ca9b9;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.24px;
+    line-height: 27.2px;
+    position: relative;
+    white-space: nowrap;
+    margin: 0;
+}
+
+.star-frame{
+    display: flex;
+    gap: 4px;
+    position: relative;
+    width: fit-content;
+}
+
+.star{
+    min-width: 16.77px;
+    position: relative;
+}
+
+.profile{
+    background-color: #d9d9d9;
+    border-radius: 43px;
+    height: 86px;
+    width: 86px;
+    position: relative;
+    margin-left: 2vw;
+}

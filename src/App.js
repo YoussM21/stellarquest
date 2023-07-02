@@ -3,6 +3,7 @@ import Navbar from "./Navbar";
 import Title from "./Title";
 import DestinationBox from "./DestinationBox";
 import ImagesGroup from "./ImagesGroup";
+import Reviews from "./Reviews";
 import spaceship from "./images/spaceship.png";
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       </div>
       <DestinationBox></DestinationBox>
       <ImagesGroup></ImagesGroup>
+      <Reviews></Reviews>
     </div>
   );
 }
