@@ -1,0 +1,22 @@
+
+.image-container{
+    position: relative;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1023px; 
+    margin: 0 auto; 
+    height: 669px;
+    width: 1023px;
+    top: -3vh;
+    gap: 20px;
+  }
+
+.interiors{
+    position: relative ;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}

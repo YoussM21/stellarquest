@@ -1,8 +1,9 @@
 import "./App.css";
 import Navbar from "./Navbar";
 import Title from "./Title";
-import DestinationBox from "./home/DestinationBox";
-import spaceship from './images/spaceship.png';
+import DestinationBox from "./DestinationBox";
+import ImagesGroup from "./ImagesGroup";
+import spaceship from "./images/spaceship.png";
 
 function App() {
   return (
@@ -12,11 +13,12 @@ function App() {
         <Title></Title>
         <div className="home-image">
           <div className="space-ship-wrapper">
-            <img className="space-ship" alt="SpaceShip" src={ spaceship }/>
+            <img className="space-ship" alt="SpaceShip" src={spaceship} />
           </div>
         </div>
       </div>
       <DestinationBox></DestinationBox>
+      <ImagesGroup></ImagesGroup>
     </div>
   );
 }
