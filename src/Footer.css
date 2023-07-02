@@ -1,0 +1,22 @@
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding-bottom: 60px;
+}
+
+.footer-nav .links{
+    margin-left: auto;
+    text-decoration: none;
+}
+
+.footer-nav a{
+    margin-left: 50px;
+    text-decoration: none;
+    padding: 0 15px 0 15px;
+    color: #ffffff;
+}
+
+.socials img{
+    padding: 0 10px 0 10px;
+}
