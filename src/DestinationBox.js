@@ -1,9 +1,9 @@
 import React from "react";
 import "./DestinationBox.css";
-import moon from "./src/images/moon.png";
-import mars from "./src/images/mars.png";
-import jupiter from "./src/images/jupiter.png";
-import saturn from "./src/images/saturn.png";
+import moon from "./images/moon.png";
+import mars from "./images/mars.png";
+import jupiter from "./images/jupiter.png";
+import saturn from "./images/saturn.png";
 
 const DestinationBox = () => {
   return (
