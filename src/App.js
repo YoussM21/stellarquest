@@ -4,6 +4,7 @@ import Title from "./Title";
 import DestinationBox from "./DestinationBox";
 import ImagesGroup from "./ImagesGroup";
 import Reviews from "./Reviews";
+import PeopleInSpace from "./PeopleInSpace";
 import spaceship from "./images/spaceship.png";
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
       <DestinationBox></DestinationBox>
       <ImagesGroup></ImagesGroup>
       <Reviews></Reviews>
+      <PeopleInSpace></PeopleInSpace>
     </div>
   );
 }
