@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footer.css';
-import logo from './logo.svg';
+import logo from './images/logo.svg';
 import facebook from './images/facebook.svg';
 import instagram from './images/instagram.svg';
 import twitter from './images/twitter.svg';
