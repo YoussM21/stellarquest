@@ -4,6 +4,7 @@ import Navbar from "./Navbar";
 import Footer from "./Footer";
 import Home from "./Home";
 import Destinations from "./Destinations";
+import News from "./News";
 
 function App() {
   return (
@@ -17,6 +18,9 @@ function App() {
             </Route>
             <Route exact path="/destination">
               <Destinations />
+            </Route>
+            <Route exact path="/News">
+              <News />
             </Route>
           </Switch>
         </div>
