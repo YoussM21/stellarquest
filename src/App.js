@@ -1,31 +1,28 @@
 import "./App.css";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Navbar from "./Navbar";
-import Title from "./Title";
-import DestinationBox from "./DestinationBox";
-import ImagesGroup from "./ImagesGroup";
-import Reviews from "./Reviews";
-import PeopleInSpace from "./PeopleInSpace";
 import Footer from "./Footer";
-import spaceship from "./images/spaceship.png";
+import Home from "./Home";
+import Destinations from "./Destinations/Destinations";
 
 function App() {
   return (
-    <div className="App">
-      <Navbar></Navbar>
-      <div className="hero-section">
-        <Title></Title>
-        <div className="home-image">
-          <div className="space-ship-wrapper">
-            <img className="space-ship" alt="SpaceShip" src={spaceship} />
-          </div>
+    <Router>
+      <div className="App">
+        <Navbar></Navbar>
+        <div className="content">
+          <Switch>
+            <Route exact path="/">
+              <Home />
+            </Route>
+            <Route exact path="/destination">
+              <Destinations />
+            </Route>
+          </Switch>
         </div>
+        <Footer></Footer>
       </div>
-      <DestinationBox></DestinationBox>
-      <ImagesGroup></ImagesGroup>
-      <Reviews></Reviews>
-      <PeopleInSpace></PeopleInSpace>
-      <Footer></Footer>
-    </div>
+    </Router>
   );
 }
 

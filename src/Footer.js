@@ -10,11 +10,12 @@ const Footer = () => {
     return ( 
         <div className="footer-container">
             <div className="footer-logo">
-                <img src={logo} className="" alt="logo" />
+                <a href='/'>
+                <img src={logo} className="" alt="logo" /></a>
             </div>
             <div className="footer-nav">
                 <div className="links">
-                    <a href="/Booking"> Destinations </a>
+                    <a href="/destination"> Destinations </a>
                     <a href="/POTD"> POTD </a>
                     <a href="/News"> News </a>
                     <a href="/About"> About us </a>
