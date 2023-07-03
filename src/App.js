@@ -5,6 +5,7 @@ import Footer from "./Footer";
 import Home from "./Home";
 import Destinations from "./Destinations";
 import News from "./News";
+import POTD from "./POTD";
 
 function App() {
   return (
@@ -21,6 +22,9 @@ function App() {
             </Route>
             <Route exact path="/News">
               <News />
+            </Route>
+            <Route exact path="/POTD">
+              <POTD />
             </Route>
           </Switch>
         </div>
