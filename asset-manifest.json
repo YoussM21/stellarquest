@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/stellarquest/static/css/main.f97a17ed.css",
-    "main.js": "/stellarquest/static/js/main.14505f24.js",
+    "main.js": "/stellarquest/static/js/main.e3e059cb.js",
     "static/media/deathstar.svg": "/stellarquest/static/media/deathstar.b0edd8c741921ee2ad900e65c8861ec2.svg",
     "static/media/interior1.svg": "/stellarquest/static/media/interior1.d28f017b82fd5cf9db60bbb9250c7dcb.svg",
     "static/media/interior2.svg": "/stellarquest/static/media/interior2.e2bed214755d680c398609be6b442fd7.svg",
@@ -26,10 +26,10 @@
     "static/media/email.svg": "/stellarquest/static/media/email.ba531e90a528f4dbedb9e6e9ded8dd9f.svg",
     "static/media/facebook.svg": "/stellarquest/static/media/facebook.4ce7e6106d3c827c9d973154df2f6a28.svg",
     "main.f97a17ed.css.map": "/stellarquest/static/css/main.f97a17ed.css.map",
-    "main.14505f24.js.map": "/stellarquest/static/js/main.14505f24.js.map"
+    "main.e3e059cb.js.map": "/stellarquest/static/js/main.e3e059cb.js.map"
   },
   "entrypoints": [
     "static/css/main.f97a17ed.css",
-    "static/js/main.14505f24.js"
+    "static/js/main.e3e059cb.js"
   ]
 }
