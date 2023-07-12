@@ -15,10 +15,10 @@ const Footer = () => {
             </div>
             <div className="footer-nav">
                 <div className="links">
-                    <a href="/destination"> Destinations </a>
-                    <a href="/POTD"> POTD </a>
-                    <a href="/News"> News </a>
-                    <a href="/About"> About us </a>
+                    <a href="/destinations"> Destinations </a>
+                    <a href="/potd"> POTD </a>
+                    <a href="/news"> News </a>
+                    <a href="/about"> About us </a>
                     <a> Login </a>     
                 </div>
             </div>
