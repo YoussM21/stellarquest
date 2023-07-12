@@ -18,8 +18,8 @@ const Footer = () => {
                     <a href="/destinations"> Destinations </a>
                     <a href="/potd"> POTD </a>
                     <a href="/news"> News </a>
-                    <a> About us </a>
-                    <a> Login </a>     
+                    <a href='/about'> About us </a>
+                    <a href='/login'> Login </a>     
                 </div>
             </div>
             <div className="socials">
