@@ -11,17 +11,17 @@ const Footer = () => {
   return (
     <div className="footer-container">
       <div className="footer-logo">
-        <a href="/">
+        <Link to="/">
           <img src={logo} className="" alt="logo" />
-        </a>
+        </Link>
       </div>
       <div className="footer-nav">
         <div className="links">
           <Link to="/destinations"> Destinations </Link>
           <Link to="/potd"> POTD </Link>
           <Link to="/news"> News </Link>
-          <Link href="/about"> About us </Link>
-          <Link href="/login"> Login </Link>
+          <Link to="/about"> About us </Link>
+          <Link to="/login"> Login </Link>
         </div>
       </div>
       <div className="socials">
