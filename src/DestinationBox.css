@@ -1,8 +1,10 @@
 .destination {
     background-color: transparent;
     display: flex;
-    margin-left: 10vw;
-    width: calc(100% - 10vw);
+    justify-content: center;
+    max-width: 1310px;
+    width: 100%;
+    margin: 0 auto;
 }
     
 .rectangle {
@@ -11,16 +13,9 @@
     background-color: #ffffff;
     border-radius: 10px;
     height: 550px;
-    width: 1070px;
-
-}
-
-.frame-wrapper {
-    height: 60px;
-    position: relative;
-    width: 214px;
-    margin-top: 3vh;
-    margin-left:2vw ;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
 }
  
 .frame {
@@ -40,16 +35,17 @@
 
 .h-1 {
     color: #000000;
-    font-size: 28px;
+    margin-top: 3vh;
+    font-size: 48px;
     font-weight: 700;
-    left: 35px;
     letter-spacing: 0;
     line-height: normal;
-    position: absolute;
+    position: relative;
 }
 
 .cards{
     position: relative;
+    justify-content: center;
     margin: 3vh 2vw;
     display: flex;
     flex-wrap: wrap;
@@ -76,11 +72,12 @@
 .card__side {
 	position: absolute;
 	inset: 0;
-	background-color: #ffff;
+	background-color: rgba(82, 74, 99, 0.45);
 	display: grid;
 	grid-template-rows: 180px 1fr;
 	backface-visibility: hidden;
 	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15);
+    border: none;
 }
 .card__side--back {
 	transform: rotateY(180deg);
@@ -118,18 +115,36 @@
     justify-content: center;
     flex-wrap: wrap;
     gap: 25px;
-    margin: 6vh;
+    margin: 3vh;
     }
 
-.button {
-    /* color: #ffffff; */ 
+.button1{
+    color: #ffffff;
+    background-color: #524a63;
     font-size: 15px;
     font-weight: 700;
     letter-spacing: 0.23px;
     line-height: 27px;
     white-space: nowrap;
     justify-content: center;
-    padding: 16px 159px;
+    padding: 16px 130px;
+    position: relative;
+    width: 100px;
+    border: none;
+    border-radius: 5px; 
+    align-items: center; 
+    display: inline-flex
+}
+
+.button2 {
+    background-color: rgba(82, 74, 99, 0.25);
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0.23px;
+    line-height: 27px;
+    white-space: nowrap;
+    justify-content: center;
+    padding: 16px 130px;
     position: relative;
     width: 100px;
     border-radius: 5px; 
