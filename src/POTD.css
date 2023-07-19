@@ -1,4 +1,6 @@
-
+.POTD-container{
+    margin-top: 90px
+}
 .POTD-title{
     font-size: 40px;
     font-weight: 700;
@@ -9,7 +11,7 @@
 .POTD-wrapper{
     background-color: #10212b;
     border-radius: 15px;
-    height: 1117px;
+    height: auto;
     max-width: 1240px;
     margin: 0 auto; 
     margin-bottom: 70px;
@@ -33,6 +35,8 @@
     font-size: 16px;
     font-weight: 500;
     text-align: left;
+    margin-top: 2vw;
+    margin-bottom: 3vw;
 }
 
 .custom-input {
@@ -46,4 +50,15 @@ button[type="submit"] {
     border-color: #524A63;
     width: 200px;
     height: 60px;
+}
+
+.generated-pic {
+    max-width: 1240px;
+    height: auto
+}
+
+.pic-title{
+    font-size: 40px;
+    font-weight: 700;
+    color: #ffffff;
 }
