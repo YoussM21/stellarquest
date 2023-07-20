@@ -1,4 +1,4 @@
-import "./App.css";
+import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
@@ -7,28 +7,23 @@ import Destinations from "./Destinations";
 import News from "./News";
 import POTD from "./POTD";
 
+const basename =
+  process.env.NODE_ENV === "production" ? "/stellarquest" : "/";
+
 function App() {
   return (
-    <Router>
+    <Router basename={basename}>
       <div className="App">
-        <Navbar></Navbar>
+        <Navbar />
         <div className="content">
           <Switch>
-            <Route exact path="/">
-              <Home />
-            </Route>
-            <Route exact path="/destinations">
-              <Destinations />
-            </Route>
-            <Route exact path="/news">
-              <News />
-            </Route>
-            <Route exact path="/potd">
-              <POTD />
-            </Route>
+            <Route exact path="/" component={Home} />
+            <Route exact path="/destinations" component={Destinations} />
+            <Route exact path="/news" component={News} />
+            <Route exact path="/potd" component={POTD} />
           </Switch>
         </div>
-        <Footer></Footer>
+        <Footer />
       </div>
     </Router>
   );
