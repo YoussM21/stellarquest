@@ -53,6 +53,7 @@ button[type="submit"] {
 }
 
 .generated-pic {
+    width: 100%;
     max-width: 1240px;
     height: auto
 }
