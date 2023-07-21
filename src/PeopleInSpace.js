@@ -9,7 +9,7 @@ const PeopleInSpace = () => {
   const [peopleCount, setPeopleCount] = useState(0);
 
   useEffect(() => {
-    axios.get('http://api.open-notify.org/astros.json')
+    axios.get('https://api.open-notify.org/astros.json')
       .then(response => {
         setPeopleCount(response.data.number);
       })
