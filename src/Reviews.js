@@ -17,52 +17,52 @@ const Reviews = () => {
             <div className="name2">Owner, Flight captain</div>
           </div>
         </div>
-        <div className="reviews">
-          <div className="review1-wrapper">
-            <div className="profile"></div>
+        <div className="reviews" role="list">
+          <div className="review1-wrapper" role="listitem">
+            <div className="profile" aria-hidden="true"></div>
             <div className="review1">
-              <div className="star-frame">
+              <div className="star-frame" aria-label="Rating: 5 out of 5">
                 <img className="star" alt="Star" src={star1} />
                 <img className="star" alt="Star" src={star1} />
                 <img className="star" alt="Star" src={star1} />
                 <img className="star" alt="Star" src={star1} />
                 <img className="star" alt="Star" src={star1} />
               </div>
-              <p className="review-title">Lorum ipsum</p>
+              <p className="review-title">Justin dough</p>
               <p className="review-content-wrapper">
-                Lorem ipsum dolor sit amet, consectetur adipisc
+                This was a fantastic experience! Highly recommended.
               </p>
             </div>
           </div>
-          <div className="review1-wrapper">
-            <div className="profile"></div>
+          <div className="review1-wrapper" role="listitem">
+            <div className="profile" aria-hidden="true"></div>
             <div className="review1">
-              <div className="star-frame">
+              <div className="star-frame" aria-label="Rating: 5 out of 5">
                 <img className="star" alt="Star" src={star1} />
                 <img className="star" alt="Star" src={star1} />
                 <img className="star" alt="Star" src={star1} />
                 <img className="star" alt="Star" src={star1} />
                 <img className="star" alt="Star" src={star1} />
               </div>
-              <p className="review-title">Lorum ipsum</p>
+              <p className="review-title">Cristiano Ronaldo</p>
               <p className="review-content-wrapper">
-                Lorem ipsum dolor sit amet, consectetur adipisc
+                Something I've never experienced before. Better than UEFA!
               </p>
             </div>
           </div>
-          <div className="review1-wrapper">
-            <div className="profile"></div>
+          <div className="review1-wrapper" role="listitem">
+            <div className="profile" aria-hidden="true"></div>
             <div className="review1">
-              <div className="star-frame">
+              <div className="star-frame" aria-label="Rating: 5 out of 5">
                 <img className="star" alt="Star" src={star1} />
                 <img className="star" alt="Star" src={star1} />
                 <img className="star" alt="Star" src={star1} />
                 <img className="star" alt="Star" src={star1} />
                 <img className="star" alt="Star" src={star1} />
               </div>
-              <p className="review-title">Lorum ipsum</p>
+              <p className="review-title">Lionel Messi</p>
               <p className="review-content-wrapper">
-                Lorem ipsum dolor sit amet, consectetur adipisc
+                The trip was a 10 out 10! It was fun and magical.
               </p>
             </div>
           </div>
@@ -73,3 +73,4 @@ const Reviews = () => {
 };
 
 export default Reviews;
+

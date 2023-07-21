@@ -3,7 +3,7 @@ import './Title.css'
 
 const Title = () => {
   return (
-    <div className="box">
+    <div className="box" aria-label="Unveiling the Universe">
       <div className="slogan-wrapper">
         <div className="slogan">
           <h1 className="text-wrapper">UNVEILING</h1>
