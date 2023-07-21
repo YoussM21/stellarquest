@@ -67,3 +67,27 @@
     transform: translateY(-10px);
     transition: 0.3s;
 }
+
+.filter-bar{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    color: #8ca9b9;
+    font-size: 17px;
+}
+
+.filter-destination{
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.filter{
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    color: #8ca9b9;
+    width: auto;
+}
