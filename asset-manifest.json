@@ -1,11 +1,13 @@
 {
   "files": {
-    "main.css": "/stellarquest/static/css/main.6e90666d.css",
-    "main.js": "/stellarquest/static/js/main.8f187ff9.js",
+    "main.css": "/stellarquest/static/css/main.573ec8dd.css",
+    "main.js": "/stellarquest/static/js/main.1c8c3bc0.js",
+    "static/media/kelperPlanet.svg": "/stellarquest/static/media/kelperPlanet.95ec11a79f8c6d914626733ba96c924d.svg",
+    "static/media/blackhole.svg": "/stellarquest/static/media/blackhole.8371bf9dadef4060642e2f5a021c37b1.svg",
+    "static/media/spaceWalk.svg": "/stellarquest/static/media/spaceWalk.5408b778b4bb2976cd3e231d43510272.svg",
     "static/media/deathstar.svg": "/stellarquest/static/media/deathstar.81df5df6cbd1b062946639913a42caa6.svg",
     "static/media/interior1.svg": "/stellarquest/static/media/interior1.2ee14b871f333453c939b8e1f48e1a0c.svg",
     "static/media/interior2.svg": "/stellarquest/static/media/interior2.f1e4fe4eb6253a9f4a72f424afce653a.svg",
-    "static/media/NewsImage.svg": "/stellarquest/static/media/NewsImage.f1b24df56cfc1ef6f6ba591b6d4598ff.svg",
     "static/media/mars2.svg": "/stellarquest/static/media/mars2.1393a015274afd547243f317270e15ed.svg",
     "static/media/planetPOV.svg": "/stellarquest/static/media/planetPOV.fb34ccb785bde40990ecb80bd837a350.svg",
     "static/media/sideImage.svg": "/stellarquest/static/media/sideImage.a3cf66ceba16f2479b432c96ca8da9ab.svg",
@@ -15,6 +17,7 @@
     "static/media/background2.jpg": "/stellarquest/static/media/background2.d64d6469df1248585d48.jpg",
     "static/media/saturn2.svg": "/stellarquest/static/media/saturn2.efe7bb8dcfdca5968330fc48730f4f05.svg",
     "static/media/spaceship.png": "/stellarquest/static/media/spaceship.34c5be07ceb311ab9bf0.png",
+    "static/media/Voyager-x.svg": "/stellarquest/static/media/Voyager-x.d7c68225b1f6c58f40ac0468a919897d.svg",
     "static/media/jupiter2.svg": "/stellarquest/static/media/jupiter2.9a88fc0b7f463fc93edb779a0fadb246.svg",
     "static/media/jupiter.png": "/stellarquest/static/media/jupiter.2e80bd0e49df0107ab96.png",
     "static/media/saturn.png": "/stellarquest/static/media/saturn.988cd5874eabdb2e3885.png",
@@ -28,13 +31,14 @@
     "static/media/twitter.svg": "/stellarquest/static/media/twitter.b1681fdd220fb8ac27774cc5e3da10d7.svg",
     "static/media/star-1.svg": "/stellarquest/static/media/star-1.16797acc7c7dc9d53c33c90646b035bd.svg",
     "index.html": "/stellarquest/index.html",
+    "static/media/searchlens.svg": "/stellarquest/static/media/searchlens.86b8eca417db3d551a1c92952abfba9e.svg",
     "static/media/email.svg": "/stellarquest/static/media/email.800ef83a58f5bb1c7ec897cd062c13e0.svg",
     "static/media/facebook.svg": "/stellarquest/static/media/facebook.3d7d0834a5da3dea179ee01d2da0c9ea.svg",
-    "main.6e90666d.css.map": "/stellarquest/static/css/main.6e90666d.css.map",
-    "main.8f187ff9.js.map": "/stellarquest/static/js/main.8f187ff9.js.map"
+    "main.573ec8dd.css.map": "/stellarquest/static/css/main.573ec8dd.css.map",
+    "main.1c8c3bc0.js.map": "/stellarquest/static/js/main.1c8c3bc0.js.map"
   },
   "entrypoints": [
-    "static/css/main.6e90666d.css",
-    "static/js/main.8f187ff9.js"
+    "static/css/main.573ec8dd.css",
+    "static/js/main.1c8c3bc0.js"
   ]
 }
