@@ -1,16 +1,25 @@
-
-import React, { useState } from 'react';
-import { Form, Button } from 'react-bootstrap';
+import React, { useState } from "react";
+import { Form, Button } from "react-bootstrap";
 import "./BookingFrom.css";
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "bootstrap/dist/css/bootstrap.min.css";
 
-const destinations = ['Moon', 'Mars', 'Saturn', 'Jupiter', 'Pluto', 'Mercury', 'Venus', 'Uranus', 'Neptune'];
+const destinations = [
+  "Moon",
+  "Mars",
+  "Saturn",
+  "Jupiter",
+  "Pluto",
+  "Mercury",
+  "Venus",
+  "Uranus",
+  "Neptune",
+];
 
 function BookingForm() {
-  const [destination, setDestination] = useState('');
-  const [departurePlace, setDeparturePlace] = useState('');
-  const [tripDate, setTripDate] = useState('');
-  const [returnDate, setReturnDate] = useState('');
+  const [destination, setDestination] = useState("");
+  const [departurePlace, setDeparturePlace] = useState("");
+  const [tripDate, setTripDate] = useState("");
+  const [returnDate, setReturnDate] = useState("");
   const [passengerCount, setPassengerCount] = useState(1);
 
   const handleDestinationChange = (event) => {
@@ -95,11 +104,8 @@ function BookingForm() {
       </Form.Group>
 
       <Form.Group className="mb-3" controlId="passengerCount">
-        <Form.Label>Passengers</Form.Label>
-        <div className="d-flex align-items-center">
-          <Button variant="outline-primary" size="sm" onClick={handlePassengerDecrement}>
-            -
-          </Button>
+        <Form.Label className="passenger-label">Passengers</Form.Label>
+        <div className="input-container">
           <Form.Control
             type="number"
             min="1"
@@ -107,13 +113,25 @@ function BookingForm() {
             readOnly
             className="custom-input passenger-count"
           />
-          <Button variant="outline-primary" size="sm" onClick={handlePassengerIncrement}>
+          <Button
+            variant="outline-primary"
+            size="sm"
+            onClick={handlePassengerDecrement}
+            className="minus-button"
+          >
+            -
+          </Button>
+          <Button
+            variant="outline-primary"
+            size="sm"
+            onClick={handlePassengerIncrement}
+            className="plus-button"
+          >
             +
           </Button>
         </div>
       </Form.Group>
-
-      <Button variant="primary" type="submit" >
+      <Button className="bookflight" variant="primary" type="submit">
         Book Flight
       </Button>
     </Form>

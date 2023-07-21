@@ -39,7 +39,7 @@ const POTD = () => {
                 <Form.Control
                   type="date"
                   placeholder="Select Your Date"
-                  className="custom-input"
+                  className="custom-input2"
                   value={date}
                   onChange={handleDateChange}
                 />

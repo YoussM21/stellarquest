@@ -1,17 +1,18 @@
 
-.custom-select{
-    background-color: #10212BE5;
-    color: white;
-    width: 300px;
+select.custom-select{
+    width: 200px;
     height: 70px;
+    border-radius: 5px 0 0 5px;
   }
   
-  .custom-input {
-    background-color: #10212BE5;
-    color: white;
-    width: 300px;
+  input.custom-input {
+    margin: 0 auto;
+    width: 200px;
     height: 70px;
+    border-radius: 0;
   }
+
+
   .passenger-count {
     width: 60px;
     text-align: center;
@@ -22,11 +23,57 @@
     background-color: #524A63;
     border-color: #524A63;
     width: 200px;
-    height: 60px;
+    height: 70px;
+    border-radius: 0 5px 5px 0;
+    top: 0.6vw;
+    position: relative;
   }
   
 .booking-form{
   display: flex;
-  flex-direction: column;
   align-items: center;
+  justify-content: center;
+}
+
+.input-container {
+  position: relative;
+  display: inline-block;
+}
+
+.custom-input {
+  padding-left: 30px; /* Adjust as needed */
+  padding-right: 30px; /* Adjust as needed */
+  text-align: center;
+  width: 100px; /* Adjust the width as needed */
+}
+
+button.minus-button,
+button.plus-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  color: #524A63;
+}
+
+
+.minus-button {
+  left: 5px; /* Adjust the left offset as needed */
+}
+
+.plus-button {
+  right: 5px; /* Adjust the right offset as needed */
+}
+
+.passenger-label {
+  display: block;
+  text-align: center;
+  margin-bottom: 5px; /* Adjust the margin as needed */
+}
+
+@media screen and (max-width: 1200px) {
+  .booking-form {
+    display: flex;
+    flex-direction: column;
+  }
 }
