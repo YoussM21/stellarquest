@@ -54,7 +54,7 @@ function BookingForm() {
 
   return (
     <Form onSubmit={handleSubmit} className="booking-form">
-      <Form.Group className="mb-3" controlId="destination">
+      <Form.Group className="mb-32" controlId="destination">
         <Form.Label>Destination</Form.Label>
         <Form.Select
           value={destination}
@@ -70,7 +70,7 @@ function BookingForm() {
         </Form.Select>
       </Form.Group>
 
-      <Form.Group className="mb-3" controlId="departurePlace">
+      <Form.Group className="mb-32" controlId="departurePlace">
         <Form.Label>Departure Place</Form.Label>
         <Form.Control
           type="text"
@@ -81,7 +81,7 @@ function BookingForm() {
         />
       </Form.Group>
 
-      <Form.Group className="mb-3" controlId="tripDate">
+      <Form.Group className="mb-32" controlId="tripDate">
         <Form.Label>Trip Date</Form.Label>
         <Form.Control
           type="date"
@@ -92,7 +92,7 @@ function BookingForm() {
         />
       </Form.Group>
 
-      <Form.Group className="mb-3" controlId="returnDate">
+      <Form.Group className="mb-32" controlId="returnDate">
         <Form.Label>Return Date</Form.Label>
         <Form.Control
           type="date"
@@ -103,7 +103,7 @@ function BookingForm() {
         />
       </Form.Group>
 
-      <Form.Group className="mb-3" controlId="passengerCount">
+      <Form.Group className="mb-32" controlId="passengerCount">
         <Form.Label className="passenger-label">Passengers</Form.Label>
         <div className="input-container">
           <Form.Control

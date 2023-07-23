@@ -25,7 +25,7 @@ select.custom-select{
     width: 200px;
     height: 70px;
     border-radius: 0 5px 5px 0;
-    top: 0.6vw;
+    top: 1vw;
     position: relative;
   }
   
