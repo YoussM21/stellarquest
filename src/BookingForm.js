@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Form, Button } from "react-bootstrap";
 import "./BookingFrom.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { Link } from "react-router-dom";
 
 const destinations = [
   "Moon",
@@ -131,9 +132,11 @@ function BookingForm() {
           </Button>
         </div>
       </Form.Group>
-      <Button className="bookflight" variant="primary" type="submit">
-        Book Flight
-      </Button>
+      <Link to="/PageNotFound">
+        <Button className="bookflight" variant="primary" type="submit">
+          Book Flight
+        </Button>
+      </Link>
     </Form>
   );
 }

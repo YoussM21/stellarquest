@@ -5,6 +5,7 @@ import mars from "./images/mars.png";
 import jupiter from "./images/jupiter.png";
 import saturn from "./images/saturn.png";
 import mercury from "./images/mercury.svg";
+import { Link } from "react-router-dom";
 
 const destinationsData = [
   {
@@ -66,7 +67,11 @@ const DestinationBox = () => {
               <div className="card__inner">
                 <div className="card__side card__side--front">
                   <div className="card__image-wrapper">
-                    <img src={destination.image} alt="" className="card__image" />
+                    <img
+                      src={destination.image}
+                      alt=""
+                      className="card__image"
+                    />
                   </div>
                   <div className="card__body card__body--flex">
                     <h2 className="card__title">{destination.title}</h2>
@@ -83,8 +88,12 @@ const DestinationBox = () => {
           ))}
         </div>
         <div className="button-container">
-          <button className="button1">Book Now</button>
-          <button className="button2">All Destinations</button>
+          <Link to="/destinations?section=bookingform">
+            <button className="button1">Book Now</button>
+          </Link>
+          <Link to="/destinations?section=planetdestinations">
+            <button className="button2">All Destinations</button>
+          </Link>
         </div>
       </div>
     </div>

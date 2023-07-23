@@ -7,6 +7,7 @@ import Destinations from "./Destinations";
 import News from "./News";
 import POTD from "./POTD";
 import Help from "./Help";
+import PageNotFound from "./PageNotFound";
 
 const basename =
   process.env.NODE_ENV === "production" ? "/stellarquest" : "/";
@@ -23,6 +24,7 @@ function App() {
             <Route exact path="/news" component={News} />
             <Route exact path="/potd" component={POTD} />
             <Route exact path="/help" component={Help} />
+            <Route component={PageNotFound} />
           </Switch>
         </div>
         <Footer />

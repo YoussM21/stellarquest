@@ -33,3 +33,9 @@
   background-size: cover;
 }
   
+.error-text-container{
+  margin: 90px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
