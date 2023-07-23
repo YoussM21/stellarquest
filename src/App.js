@@ -6,6 +6,7 @@ import Home from "./Home";
 import Destinations from "./Destinations";
 import News from "./News";
 import POTD from "./POTD";
+import Help from "./Help";
 
 const basename =
   process.env.NODE_ENV === "production" ? "/stellarquest" : "/";
@@ -21,6 +22,7 @@ function App() {
             <Route exact path="/destinations" component={Destinations} />
             <Route exact path="/news" component={News} />
             <Route exact path="/potd" component={POTD} />
+            <Route exact path="/help" component={Help} />
           </Switch>
         </div>
         <Footer />

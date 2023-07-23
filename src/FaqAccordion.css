@@ -1,0 +1,16 @@
+
+.Accordion {
+    background-color: transparent;
+    position: relative;
+    width: 1200px;
+  }
+  
+  .custom-accordion-header:not(.collapsed) {
+    background-color: black; 
+  }
+  
+  .custom-accordion-item {
+    background-color: #10212be6;
+    border: none; 
+    color: white;
+  }
