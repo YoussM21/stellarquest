@@ -1,0 +1,13 @@
+.contact-form{
+    width: 1000px;
+}
+
+.mb-3{
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.contact-form button{
+    margin: 15px;
+}

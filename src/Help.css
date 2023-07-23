@@ -21,3 +21,15 @@
     justify-content: flex-start;
     margin-bottom: 30px;
 }
+
+.contact-us-section{
+    margin-bottom: 90px;
+}
+.contact-us-title{
+    margin: 50px 0 30px 0;
+    display: flex;  
+    justify-content: flex-start;
+    font-size: 30px;
+    font-weight: 500;
+}
+
