@@ -11,12 +11,30 @@
     height: 669px;
     width: 1023px;
     top: -3vh;
-    gap: 20px;
+    gap: 2vh;
   }
 
 .interiors{
     position: relative ;
     display: flex;
     flex-direction: column;
-    gap: 25px;
+    gap: 1.3vw;
+}
+
+@media screen and (max-width: 1000px) {
+
+  .image-container{
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .interiors{
+    display: flex;
+    width: 30%;
+  }
+
+  .deathstare1{
+    width: 70%;
+  }
 }

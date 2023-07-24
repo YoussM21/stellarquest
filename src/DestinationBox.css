@@ -49,7 +49,7 @@
     margin: 3vh 2vw;
     display: flex;
     flex-wrap: wrap;
-    gap: 24px;
+    gap: 2.4vh;
     flex: 0 0 250px;
 
 }
@@ -151,4 +151,46 @@
     align-items: center; 
     display: inline-flex
 }
-    
+
+
+
+@media screen and (max-width: 1000px) {
+    .cards {
+      justify-content: space-evenly;
+    }
+  
+    .card {
+      width: 150px;
+      height: 200px;
+    }
+  }
+  
+
+  @media screen and (max-width: 600px) {
+    .cards {
+      justify-content: center;
+      gap: 1.5vh;
+    }
+  
+    .card {
+      width: 120px; 
+      height: 160px; 
+    }
+  
+    .rectangle {
+      height: auto; 
+      padding: 2rem; 
+    }
+  
+    .button-container {
+      flex-direction: column; 
+      align-items: center; 
+    }
+  
+    .button1,
+    .button2 {
+      font-size: 14px; 
+      padding: 12px 20px; 
+      width: 120px; 
+    }
+  }

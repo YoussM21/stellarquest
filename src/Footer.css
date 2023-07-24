@@ -8,6 +8,7 @@
 .footer-nav .links{
     margin-left: auto;
     text-decoration: none;
+    flex-wrap: wrap;
 }
 
 .footer-nav a{
@@ -19,4 +20,14 @@
 
 .socials img{
     padding: 0 10px 0 10px;
+}
+ 
+
+@media screen and (max-width: 1000px){
+
+    .footer-nav .links{
+        font-size: 10px;
+        display: flex;
+    }
+    
 }

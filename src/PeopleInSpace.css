@@ -36,10 +36,11 @@
 .image-container2{
     position: relative;
     display: flex;
+    flex-wrap: nowrap;
     justify-content: space-between;
     top: -20vh;
 }
-
+ 
 .astronaut{
     height: 296px;
     object-fit: cover;
@@ -54,4 +55,17 @@
     height: 356px;
     width: 356px;
     margin-right: 20vh;
+}
+
+
+@media screen and (max-width: 1300px) {
+    .image-container2{
+        width: 200px;
+        top: 0px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin-bottom: 70px;
+    }
+    
 }
