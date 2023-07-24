@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/stellarquest/static/css/main.71a503b4.css",
-    "main.js": "/stellarquest/static/js/main.c6d4c821.js",
+    "main.css": "/stellarquest/static/css/main.f6cbee14.css",
+    "main.js": "/stellarquest/static/js/main.2ff37645.js",
     "static/media/kelperPlanet.svg": "/stellarquest/static/media/kelperPlanet.95ec11a79f8c6d914626733ba96c924d.svg",
     "static/media/blackhole.svg": "/stellarquest/static/media/blackhole.8371bf9dadef4060642e2f5a021c37b1.svg",
     "static/media/spaceWalk.svg": "/stellarquest/static/media/spaceWalk.5408b778b4bb2976cd3e231d43510272.svg",
@@ -34,11 +34,11 @@
     "static/media/searchlens.svg": "/stellarquest/static/media/searchlens.86b8eca417db3d551a1c92952abfba9e.svg",
     "static/media/email.svg": "/stellarquest/static/media/email.800ef83a58f5bb1c7ec897cd062c13e0.svg",
     "static/media/facebook.svg": "/stellarquest/static/media/facebook.3d7d0834a5da3dea179ee01d2da0c9ea.svg",
-    "main.71a503b4.css.map": "/stellarquest/static/css/main.71a503b4.css.map",
-    "main.c6d4c821.js.map": "/stellarquest/static/js/main.c6d4c821.js.map"
+    "main.f6cbee14.css.map": "/stellarquest/static/css/main.f6cbee14.css.map",
+    "main.2ff37645.js.map": "/stellarquest/static/js/main.2ff37645.js.map"
   },
   "entrypoints": [
-    "static/css/main.71a503b4.css",
-    "static/js/main.c6d4c821.js"
+    "static/css/main.f6cbee14.css",
+    "static/js/main.2ff37645.js"
   ]
 }
